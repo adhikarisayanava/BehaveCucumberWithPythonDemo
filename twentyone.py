@@ -5,6 +5,7 @@ def _next_card():
     return random.choice(_cards)
 
 def _hand_total(hand):
+ #Can you please write this python function for me which calculates the sum of 2 cards(received as a list in the "hand" aregument in the function) from the 13-card deck having from 2 to 10 and then J,Q,K,A.Please treat J as 11, Q as 12, K as 13 and A as 1.
      """
      This function calculates the sum of two cards. The cards are represented as a list of two elements.
      Cards from 2 to 10 are represented by their respective numbers. J, Q, K, A are represented as 'J', 'Q', 'K', 'A'.
@@ -24,7 +25,7 @@ def _hand_total(hand):
          # If the card is a number card (2-10), add its value to the sum
          else:
              sum_of_cards += int(card)
-     print(f"sum of cards is {sum_of_cards}")
+ 
      return sum_of_cards
 
 
