@@ -40,3 +40,4 @@ class Dealer:
    def get_hand_total(self):
     return _hand_total(self.hand)
 
+#Test
