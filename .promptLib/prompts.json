@@ -1,0 +1,41 @@
+{
+  "Explain Broken": {
+    "description": "Explain what is wrong with the code",
+    "template": "Explain_Broken.yaml",
+    "external": false
+  },
+  "Refactor This": {
+    "description": "Refactors the code to be more readable",
+    "template": "Refactor_This.yaml",
+    "external": false
+  },
+  "Comment Code": {
+    "description": "Add comments to the code",
+    "template": "Comment_Code.yaml",
+    "external": false
+  },
+  "Add Unit Tests": {
+    "description": "Create unit-tests for selected code",
+    "template": "Add_Unit_Tests.yaml",
+    "external": false
+  },
+  "Code Me This": {
+    "description": "Generate code based on the comment",
+    "template": "Code_Me_This.yaml",
+    "external": false
+  },
+  "Practical Task": {
+    "description": "Generate practical task for the candidate, description of positions need to be specified as input",
+    "external": true,
+    "userSettings": {},
+    "prompt_id": 12,
+    "integration_uid": "7d840f86-dc8f-4857-a9db-5aa717e17a17"
+  },
+  "demo-groovy-test-generation": {
+    "description": "",
+    "external": true,
+    "userSettings": {},
+    "prompt_id": 26,
+    "integration_uid": null
+  }
+}
